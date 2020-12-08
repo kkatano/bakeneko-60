@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name bakeneko-65-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/bakeneko-65-pcb-rescue.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+  (lib (name Device)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Device.lib)(options "")(descr ""))
+  (lib (name Connector_Generic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic.lib)(options "")(descr ""))
+  (lib (name MCU_Microchip_ATmega)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_ATmega.lib)(options "")(descr ""))
+  (lib (name Power_Protection)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Power_Protection.lib)(options "")(descr ""))
+  (lib (name Switch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Switch.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector.lib)(options "")(descr ""))
+)
