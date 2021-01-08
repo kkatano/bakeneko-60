@@ -26,6 +26,10 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
 - Typing angle: 6 degree
 - O-ring gasket: VMQ-50(Silicone 50 duro) AS568-262 / AS568-263 for split backspace
 
+## Mounting Style
+
+[Bakeneko 60/65 Mounting Style - YouTube](https://youtu.be/cumnT5xGa78)
+
 ## Typing Sounds
 
 [Bakeneko 60 Typing Sounds - YouTube](https://youtube.com/playlist?list=PLwI1Rtk5mMpwEDVoZeK9ZmvEfa3WovCov)
