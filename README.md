@@ -1,6 +1,6 @@
 # Bakeneko 60 V3
 
-**V3 is currently a work in progress. Previous versions can be downloaded from the release page.**
+**V3 is still a work in progress. Previous versions are available for download on the release page.**
 
 A simple 60% keyboard for DIYers. This project is a special homage to TGR x Singa UNIKORN 60 and OTD 356 Mini.
 
