@@ -6157,7 +6157,7 @@
   (gr_text "" (at 145.69625 112.839213) (layer Edge.Cuts)
     (effects (font (size 3.5 3.15) (thickness 0.4375)) (justify top))
   )
-  (gr_text "Bakeneko 60 v2.0" (at 255.1125 92.4875) (layer B.SilkS)
+  (gr_text "Bakeneko 60 v3.0" (at 273.80375 92.38) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15) italic) (justify mirror))
   )
 
