@@ -465,42 +465,6 @@ Wire Wire Line
 	5500 5400 5500 5750
 Wire Wire Line
 	5050 5400 5500 5400
-$Comp
-L Connector:AVR-ISP-6 J2
-U 1 1 5F4C9CCE
-P 7150 1650
-F 0 "J2" H 6821 1746 50  0000 R CNN
-F 1 "AVR-ISP-6" H 6821 1655 50  0000 R CNN
-F 2 "random-keyboard-parts:Reset_Pretty" V 6900 1700 50  0001 C CNN
-F 3 " ~" H 5875 1100 50  0001 C CNN
-	1    7150 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5F4D2BF6
-P 7050 2050
-F 0 "#PWR08" H 7050 1800 50  0001 C CNN
-F 1 "GND" H 7055 1877 50  0000 C CNN
-F 2 "" H 7050 2050 50  0001 C CNN
-F 3 "" H 7050 2050 50  0001 C CNN
-	1    7050 2050
-	1    0    0    -1  
-$EndComp
-Text GLabel 7550 1450 2    50   Input ~ 0
-MISO
-Text GLabel 7550 1550 2    50   Input ~ 0
-MOSI
-Text GLabel 7550 1650 2    50   Input ~ 0
-SCK
-Text GLabel 7550 1750 2    50   Input ~ 0
-RESET
-Text GLabel 2950 4200 2    50   Input ~ 0
-MISO
-Text GLabel 2950 4000 2    50   Input ~ 0
-SCK
-Text GLabel 2950 4100 2    50   Input ~ 0
-MOSI
 Text GLabel 2950 5200 2    50   Input ~ 0
 COL14
 Text GLabel 2950 5300 2    50   Input ~ 0
@@ -615,17 +579,6 @@ F 3 "" H 9000 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR01
-U 1 1 5F3D1A13
-P 7050 1150
-F 0 "#PWR01" H 7050 1000 50  0001 C CNN
-F 1 "+5V" H 7065 1323 50  0000 C CNN
-F 2 "" H 7050 1150 50  0001 C CNN
-F 3 "" H 7050 1150 50  0001 C CNN
-	1    7050 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR021
 U 1 1 5F3DDD9D
 P 4650 7000
@@ -692,4 +645,7 @@ ROW4
 Text GLabel 2950 6500 2    50   Input ~ 0
 ROW3
 NoConn ~ 2950 5100
+NoConn ~ 2950 4200
+NoConn ~ 2950 4100
+NoConn ~ 2950 4000
 $EndSCHEMATC
