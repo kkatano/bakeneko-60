@@ -27,7 +27,7 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
 - Home row height: 31mm(with GMK keycaps and bumpons)
 - Typing angle: 6 degree
 - Weight:
-  - SLS Nylon Case: 450g including stainless weight
+  - PLA Case: 500g including stainless weight
   - Aluminum Case: 1,000g including brass weight
 - O-ring gasket: VMQ-50(Silicone 50 duro) AS568-262
 
