@@ -2,7 +2,7 @@
 
 **V3 is still a work in progress.**
  - Previous versions are available for download on [the release page](https://github.com/kkatano/bakeneko-60/releases)
- - Don't use the files for manufacturing
+ - Don't use the files for manufacturing until first version is released
 
 A simple 60% keyboard for DIYers. This project is a special homage to TGR x Singa UNIKORN 60 and OTD 356 Mini.
 
