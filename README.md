@@ -74,4 +74,5 @@ TBU
 - **ai03** for [MX_Alps_Hybrid](https://github.com/ai03-2725/MX_Alps_Hybrid) and [random-keyboard-parts.pretty](https://github.com/ai03-2725/random-keyboard-parts.pretty). Also got a lot of help from his discord server
 - **overset** for [JP01](https://github.com/overset/JP01). The idea of publishing the case design on Onshape. After seeing their great work I switched from fusion360 to Onshape
 - **clonetropboi** gave me a lot of advice on keyboard design and manufacturing
+- **Maker Keyboards** suggested adding a plate cutout to remove the PCB using a keycap puller. They implemented it in [the Phantom](https://www.makerkeyboards.com/collections/third-party/products/phantom)
 - And many community members for giving me advice and feedback, thanks!
