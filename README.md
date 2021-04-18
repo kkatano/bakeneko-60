@@ -23,12 +23,12 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
 ## Specs
 
 - Dimensions: 295 x 110 x 30mm
-- Front height: 18.6mm
+- Front height: 18.5mm
 - Home row height: 31mm(with GMK keycaps and bumpons)
 - Typing angle: 6 degree
 - Weight:
-  - PLA Case: 500g including stainless weight
-  - Aluminum Case: 1,000g including brass weight
+  - PLA Case: 370g
+  - Aluminum Case: 700g
 - O-ring gasket: VMQ-50(Silicone 50 duro) AS568-262
 
 ## Mounting Style
