@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name bakeneko-65-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/bakeneko-65-pcb-rescue.lib)(options "")(descr ""))
+  (lib (name bakeneko-60-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/bakeneko-60-pcb-rescue.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
   (lib (name Device)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Device.lib)(options "")(descr ""))
   (lib (name Connector_Generic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic.lib)(options "")(descr ""))
