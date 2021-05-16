@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "Bakeneko 65"
+Title "Bakeneko 60 V3"
 Date "2020-08-01"
 Rev "1"
 Comp ""
@@ -148,37 +148,26 @@ Wire Wire Line
 $Comp
 L Device:Polyfuse F1
 U 1 1 5F2505EB
-P 8850 2800
-F 0 "F1" V 8625 2800 50  0000 C CNN
-F 1 "500mA" V 8716 2800 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 8900 2600 50  0001 L CNN
-F 3 "~" H 8850 2800 50  0001 C CNN
-F 4 "C70076" H 8850 2800 50  0001 C CNN "LCSC Part #"
-	1    8850 2800
+P 6300 2950
+F 0 "F1" V 6075 2950 50  0000 C CNN
+F 1 "500mA" V 6166 2950 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 6350 2750 50  0001 L CNN
+F 3 "~" H 6300 2950 50  0001 C CNN
+F 4 "C70076" H 6300 2950 50  0001 C CNN "LCSC Part #"
+	1    6300 2950
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5F252816
-P 10250 1600
-F 0 "J1" H 10600 1500 50  0000 C CNN
-F 1 "JST SH 4-pin" H 10600 1600 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 10250 1600 50  0001 C CNN
-F 3 "~" H 10250 1600 50  0001 C CNN
-F 4 "C160404" H 10250 1600 50  0001 C CNN "LCSC Part #"
-	1    10250 1600
+P 7750 1450
+F 0 "J1" H 8100 1350 50  0000 C CNN
+F 1 "JST SH 4-pin" H 8100 1450 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 7750 1450 50  0001 C CNN
+F 3 "~" H 7750 1450 50  0001 C CNN
+F 4 "C160404" H 7750 1450 50  0001 C CNN "LCSC Part #"
+	1    7750 1450
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5F256D2D
-P 8850 1150
-F 0 "#PWR02" H 8850 900 50  0001 C CNN
-F 1 "GND" V 8855 1022 50  0000 R CNN
-F 2 "" H 8850 1150 50  0001 C CNN
-F 3 "" H 8850 1150 50  0001 C CNN
-	1    8850 1150
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
@@ -192,9 +181,9 @@ F 4 "C17561" H 1100 4900 50  0001 C CNN "LCSC Part #"
 	1    1100 4900
 	0    1    1    0   
 $EndComp
-Text GLabel 10050 1600 0    50   Input ~ 0
+Text GLabel 7550 1450 0    50   Input ~ 0
 D-
-Text GLabel 10050 1700 0    50   Input ~ 0
+Text GLabel 7550 1550 0    50   Input ~ 0
 D+
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U2
@@ -223,12 +212,12 @@ $EndComp
 $Comp
 L power:VBUS #PWR03
 U 1 1 5F275D18
-P 10050 1500
-F 0 "#PWR03" H 10050 1350 50  0001 C CNN
-F 1 "VBUS" V 10065 1628 50  0000 L CNN
-F 2 "" H 10050 1500 50  0001 C CNN
-F 3 "" H 10050 1500 50  0001 C CNN
-	1    10050 1500
+P 7550 1350
+F 0 "#PWR03" H 7550 1200 50  0001 C CNN
+F 1 "VBUS" V 7565 1478 50  0000 L CNN
+F 2 "" H 7550 1350 50  0001 C CNN
+F 3 "" H 7550 1350 50  0001 C CNN
+	1    7550 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -243,31 +232,16 @@ F 3 "" H 2350 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VBUS #PWR09
-U 1 1 5F276E32
-P 8850 2150
-F 0 "#PWR09" H 8850 2000 50  0001 C CNN
-F 1 "VBUS" V 8865 2278 50  0000 L CNN
-F 2 "" H 8850 2150 50  0001 C CNN
-F 3 "" H 8850 2150 50  0001 C CNN
-	1    8850 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:VBUS #PWR010
 U 1 1 5F277A1C
-P 8700 2800
-F 0 "#PWR010" H 8700 2650 50  0001 C CNN
-F 1 "VBUS" V 8715 2927 50  0000 L CNN
-F 2 "" H 8700 2800 50  0001 C CNN
-F 3 "" H 8700 2800 50  0001 C CNN
-	1    8700 2800
-	0    -1   -1   0   
+P 6000 2950
+F 0 "#PWR010" H 6000 2800 50  0001 C CNN
+F 1 "VBUS" V 6015 3077 50  0000 L CNN
+F 2 "" H 6000 2950 50  0001 C CNN
+F 3 "" H 6000 2950 50  0001 C CNN
+	1    6000 2950
+	1    0    0    -1  
 $EndComp
-Text GLabel 8350 1550 0    50   Input ~ 0
-D+
-Text GLabel 9350 1550 2    50   Input ~ 0
-D-
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5F27B00D
@@ -291,8 +265,6 @@ F 3 "" H 4650 6650 50  0001 C CNN
 	1    4650 6650
 	0    1    1    0   
 $EndComp
-Text GLabel 5350 6650 2    50   Input ~ 0
-RESET
 $Comp
 L Device:R R4
 U 1 1 5F27CFDF
@@ -315,7 +287,7 @@ Connection ~ 5200 6650
 Wire Wire Line
 	5200 6650 5350 6650
 Text GLabel 1750 3900 0    50   Input ~ 0
-RESET
+RST
 Text GLabel 1750 4100 0    50   Input ~ 0
 XTAL1
 Text GLabel 1750 4300 0    50   Input ~ 0
@@ -468,33 +440,33 @@ Wire Wire Line
 $Comp
 L Connector:AVR-ISP-6 J2
 U 1 1 5F4C9CCE
-P 7150 1650
-F 0 "J2" H 6821 1746 50  0000 R CNN
-F 1 "AVR-ISP-6" H 6821 1655 50  0000 R CNN
-F 2 "random-keyboard-parts:Reset_Pretty" V 6900 1700 50  0001 C CNN
-F 3 " ~" H 5875 1100 50  0001 C CNN
-	1    7150 1650
+P 4350 1550
+F 0 "J2" H 4021 1646 50  0000 R CNN
+F 1 "AVR-ISP-6" H 4021 1555 50  0000 R CNN
+F 2 "random-keyboard-parts:Reset_Pretty" V 4100 1600 50  0001 C CNN
+F 3 " ~" H 3075 1000 50  0001 C CNN
+	1    4350 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5F4D2BF6
-P 7050 2050
-F 0 "#PWR08" H 7050 1800 50  0001 C CNN
-F 1 "GND" H 7055 1877 50  0000 C CNN
-F 2 "" H 7050 2050 50  0001 C CNN
-F 3 "" H 7050 2050 50  0001 C CNN
-	1    7050 2050
+P 4250 1950
+F 0 "#PWR08" H 4250 1700 50  0001 C CNN
+F 1 "GND" H 4255 1777 50  0000 C CNN
+F 2 "" H 4250 1950 50  0001 C CNN
+F 3 "" H 4250 1950 50  0001 C CNN
+	1    4250 1950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7550 1450 2    50   Input ~ 0
+Text GLabel 4750 1350 2    50   Input ~ 0
 MISO
-Text GLabel 7550 1550 2    50   Input ~ 0
+Text GLabel 4750 1450 2    50   Input ~ 0
 MOSI
-Text GLabel 7550 1650 2    50   Input ~ 0
+Text GLabel 4750 1550 2    50   Input ~ 0
 SCK
-Text GLabel 7550 1750 2    50   Input ~ 0
-RESET
+Text GLabel 4750 1650 2    50   Input ~ 0
+RST
 Text GLabel 2950 4200 2    50   Input ~ 0
 MISO
 Text GLabel 2950 4000 2    50   Input ~ 0
@@ -531,18 +503,6 @@ Text GLabel 2950 4600 2    50   Input ~ 0
 ROW1
 Text GLabel 2950 6800 2    50   Input ~ 0
 ROW2
-$Comp
-L Power_Protection:USBLC6-2SC6 U1
-U 1 1 5F25444E
-P 8850 1650
-F 0 "U1" H 8800 2200 50  0000 L CNN
-F 1 "USBLC6-2SC6" H 8600 2300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8850 1150 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 9050 2000 50  0001 C CNN
-F 4 "C7519" H 8850 1650 50  0001 C CNN "LCSC Part #"
-	1    8850 1650
-	-1   0    0    1   
-$EndComp
 Text GLabel 2950 6100 2    50   Input ~ 0
 ROW0
 Wire Wire Line
@@ -561,26 +521,18 @@ NoConn ~ 2950 6300
 $Comp
 L power:GND #PWR07
 U 1 1 5F253A4B
-P 10050 1800
-F 0 "#PWR07" H 10050 1550 50  0001 C CNN
-F 1 "GND" V 10055 1672 50  0000 R CNN
-F 2 "" H 10050 1800 50  0001 C CNN
-F 3 "" H 10050 1800 50  0001 C CNN
-	1    10050 1800
+P 7550 1650
+F 0 "#PWR07" H 7550 1400 50  0001 C CNN
+F 1 "GND" V 7555 1522 50  0000 R CNN
+F 2 "" H 7550 1650 50  0001 C CNN
+F 3 "" H 7550 1650 50  0001 C CNN
+	1    7550 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 850  5000 0    50   Input ~ 0
-ESD_D-
 Wire Wire Line
 	850  5000 950  5000
-Text GLabel 850  4900 0    50   Input ~ 0
-ESD_D+
 Wire Wire Line
 	850  4900 950  4900
-Text GLabel 9350 1750 2    50   Input ~ 0
-ESD_D-
-Text GLabel 8350 1750 0    50   Input ~ 0
-ESD_D+
 $Comp
 L power:+5V #PWR04
 U 1 1 5F3C46AE
@@ -606,23 +558,23 @@ $EndComp
 $Comp
 L power:+5V #PWR011
 U 1 1 5F3C7287
-P 9000 2800
-F 0 "#PWR011" H 9000 2650 50  0001 C CNN
-F 1 "+5V" V 9015 2928 50  0000 L CNN
-F 2 "" H 9000 2800 50  0001 C CNN
-F 3 "" H 9000 2800 50  0001 C CNN
-	1    9000 2800
-	0    1    1    0   
+P 6600 2950
+F 0 "#PWR011" H 6600 2800 50  0001 C CNN
+F 1 "+5V" V 6615 3078 50  0000 L CNN
+F 2 "" H 6600 2950 50  0001 C CNN
+F 3 "" H 6600 2950 50  0001 C CNN
+	1    6600 2950
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR01
 U 1 1 5F3D1A13
-P 7050 1150
-F 0 "#PWR01" H 7050 1000 50  0001 C CNN
-F 1 "+5V" H 7065 1323 50  0000 C CNN
-F 2 "" H 7050 1150 50  0001 C CNN
-F 3 "" H 7050 1150 50  0001 C CNN
-	1    7050 1150
+P 4250 1050
+F 0 "#PWR01" H 4250 900 50  0001 C CNN
+F 1 "+5V" H 4265 1223 50  0000 C CNN
+F 2 "" H 4250 1050 50  0001 C CNN
+F 3 "" H 4250 1050 50  0001 C CNN
+	1    4250 1050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -692,4 +644,58 @@ ROW4
 Text GLabel 2950 6500 2    50   Input ~ 0
 ROW3
 NoConn ~ 2950 5100
+$Comp
+L Power_Protection:SRV05-4 U1
+U 1 1 60AFA3F3
+P 6350 1600
+F 0 "U1" H 6350 2281 50  0000 C CNN
+F 1 "SRV05-4" H 6350 2190 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7050 1150 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 6350 1600 50  0001 C CNN
+F 4 "C85364" H 6350 1600 50  0001 C CNN "LCSC Part #"
+	1    6350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60AFD50E
+P 6350 2200
+F 0 "#PWR0101" H 6350 1950 50  0001 C CNN
+F 1 "GND" H 6355 2027 50  0000 C CNN
+F 2 "" H 6350 2200 50  0001 C CNN
+F 3 "" H 6350 2200 50  0001 C CNN
+	1    6350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0102
+U 1 1 60B00B85
+P 6600 1100
+F 0 "#PWR0102" H 6600 950 50  0001 C CNN
+F 1 "VBUS" V 6615 1228 50  0000 L CNN
+F 2 "" H 6600 1100 50  0001 C CNN
+F 3 "" H 6600 1100 50  0001 C CNN
+	1    6600 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6850 1700 2    50   Input ~ 0
+D-
+Text GLabel 5850 1500 0    50   Input ~ 0
+D+
+Wire Wire Line
+	6350 2100 6350 2200
+Wire Wire Line
+	6600 1100 6350 1100
+Wire Wire Line
+	6600 2950 6450 2950
+Wire Wire Line
+	6000 2950 6150 2950
+Text GLabel 5350 6650 2    50   Input ~ 0
+RST
+Text GLabel 850  4900 0    50   Input ~ 0
+D+
+Text GLabel 850  5000 0    50   Input ~ 0
+D-
+NoConn ~ 6850 1500
+NoConn ~ 5850 1700
 $EndSCHEMATC
