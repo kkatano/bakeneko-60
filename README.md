@@ -27,9 +27,14 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
   - Aluminum Case: 700g
 - O-ring gasket: VMQ-50(Silicone 50 duro) AS568-262
 
-## Contact
+## Resources
 
+- Documents: https://drive.google.com/drive/folders/1tddSihOS8Pgf1lTQOjHohYCl8efxXIeH
+  - Parts guides and other useful information  
 - Discord: https://discord.gg/fMY96TeEwV
+  - Have fun with community members
+  - Talk about Bakeneko builds and mods, and share your works
+  - You can also contact me from here
 
 ## Special thanks to
 
