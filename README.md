@@ -30,7 +30,7 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
 ## Notes
 
 - This open source version is not compatible with CannonKeys' Bakeneko
-- As for stabilizers, only PCB snap ins is supported
+- As for stabilizers, only PCB snap ins are supported
 
 ## Resources
 
