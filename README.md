@@ -41,7 +41,7 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
 - Discord: https://discord.gg/fMY96TeEwV
   - Have fun with community members
   - Talk about Bakeneko builds and mods, and share your works
-  - You can also contact me from here
+  - You can also contact me from there
 
 ## Special thanks to
 
