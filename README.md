@@ -31,32 +31,6 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
   - Aluminum Case: 700g
 - O-ring gasket: VMQ-50(Silicone 50 duro) AS568-262
 
-## Mounting Style
-
-TBU
-
-## Typing Sounds
-
-TBU
-
-## Showcase 
-
-TBU
-
-## Assets
-
-### PCB
-- [bakeneko-60/pcb](./pcb)
-
-### Firmware
-- [https://github.com/qmk/qmk_firmware/tree/master/keyboards/bakeneko60](https://github.com/qmk/qmk_firmware/tree/master/keyboards/bakeneko60)
-
-### Case
-- [bakeneko-60/case](./case)
-
-### Plate
-- [bakeneko-60/plate](./plate)
-
 ## Contact
 
 - Discord: https://discord.gg/fMY96TeEwV
