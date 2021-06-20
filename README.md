@@ -35,7 +35,7 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
 ## Resources
 
 - Documents: https://drive.google.com/drive/folders/1tddSihOS8Pgf1lTQOjHohYCl8efxXIeH
-  - Parts guides and other useful information
+  - Parts guide and other useful information
   - Will be added and updated as needed
 - Discord: https://discord.gg/fMY96TeEwV
   - Have fun with community members
