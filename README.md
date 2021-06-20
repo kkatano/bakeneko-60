@@ -6,7 +6,7 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
 
 ## Features
 
-- Seamless tray case
+- Single piece tray case
 - O-ring gasket mount
 - USB-C with [Unified Daughterboard](https://github.com/ai03-2725/Unified-Daughterboard)
 - QMK firmware and VIA ready
