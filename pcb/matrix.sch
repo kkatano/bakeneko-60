@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
+Title "Bakeneko 60 V3"
+Date "2020-08-01"
+Rev "1"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Copyright © 2020 kkatano"
+Comment2 "MIT License"
 Comment3 ""
 Comment4 ""
 $EndDescr
