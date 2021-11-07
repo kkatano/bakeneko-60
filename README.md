@@ -1,6 +1,6 @@
 # Bakeneko 60 V3
 
-A simple 60% keyboard for DIYers. This project is a special homage to TGR x Singa UNIKORN 60 and OTD 356 Mini.
+A simple 60% keyboard for DIYers. This project is a special homage to TGR x Singa UNIKORN 60 and OTD 356 Mini. See also the [introduction video](https://youtu.be/8zyG34YU3BY).
 
 ![Bakeneko 60](./image/bakeneko-60.jpg)
 
