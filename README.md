@@ -2,7 +2,7 @@
 
 A simple 60% keyboard for DIYers. This project is a special homage to TGR x Singa UNIKORN 60 and OTD 356 Mini.
 
-![Bakeneko 60](./image/bakeneko-60-aluminum-draft.png)
+![Bakeneko 60](./image/bakeneko-60.jpg)
 
 ## Features
 
