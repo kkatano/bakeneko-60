@@ -54,7 +54,7 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
 
 - **OTD** for 356 Mini. Origin of O-ring gasket mount style
 - **Evy** for [Plain60 series](https://github.com/evyd13/plain60-c). I used it as a reference for my PCB design. They also answered my miscellaneous questions
-- **ai03** for [MX_Alps_Hybrid](https://github.com/ai03-2725/MX_Alps_Hybrid) and [random-keyboard-parts.pretty](https://github.com/ai03-2725/random-keyboard-parts.pretty). Also got a lot of help from his discord server
+- **ai03** for [MX_Alps_Hybrid](https://github.com/ai03-2725/MX_Alps_Hybrid). Also got a lot of help from his discord server
 - **overset** for [JP01](https://github.com/overset/JP01). The idea of publishing the case design on Onshape. After seeing their great work I switched from fusion360 to Onshape
 - **Rhuk** gave me a lot of advice on keyboard design and manufacturing
 - **Maker Keyboards** suggested adding a plate cutout to remove the PCB using a keycap puller
