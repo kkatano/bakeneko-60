@@ -8,9 +8,10 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
 
 - Single piece tray case
 - O-ring gasket mount (Friction fit)
-- USB-C with [Unified Daughterboard](https://github.com/ai03-2725/Unified-Daughterboard)
-- QMK firmware and VIA ready
+- [Unified Daughterboard](https://github.com/ai03-2725/Unified-Daughterboard)
+- QMK firmware and VIA
 - Compatible with common 60% plates
+- PCB designed with KiCAD 5.1.4
 
 ## Layouts
 
