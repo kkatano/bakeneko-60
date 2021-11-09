@@ -374,7 +374,7 @@ U 1 1 5F4C9CCE
 P 2300 1650
 F 0 "J2" H 1971 1746 50  0000 R CNN
 F 1 "AVR-ISP-6" H 1971 1655 50  0000 R CNN
-F 2 "random-keyboard-parts:Reset_Pretty" V 2050 1700 50  0001 C CNN
+F 2 "bakeneko:ISP" V 2050 1700 50  0001 C CNN
 F 3 " ~" H 1025 1100 50  0001 C CNN
 	1    2300 1650
 	1    0    0    -1  
