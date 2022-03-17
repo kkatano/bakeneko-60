@@ -30,9 +30,11 @@ A simple 60% keyboard for DIYers. This project is a special homage to TGR x Sing
 
 ## Notes
 
+- Old files (v1) are no longer available. See [geekhack post](https://geekhack.org/index.php?topic=107316.msg2974824#msg2974824) for the context
+- If you are considering using a mount points compatible with the Unikorn/Bakeneko v1/CannonKeys Bakeneko, I suggest you contact Elaine at SINGAKBD (elaine@singakbd.com) first
 - All files are to be used at your own risk
 - As for stabilizers, only PCB snap ins are supported
-- This open source version is not compatible with CannonKeys' Bakeneko
+- This open source version is not compatible with CannonKeys Bakeneko
 
 ## Resources
 
